@@ -1,0 +1,58 @@
+.card {
+  width: 50vh;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(159, 137, 137, 0.3);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  text-align: center; // added this line
+  margin-bottom: 20px; // added this line
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #097529;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 94%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
